@@ -1,0 +1,16 @@
+<svg width="960" height="600" viewBox="0 0 960 600" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Project screenshot placeholder</title>
+  <desc id="desc">A simple placeholder for a future project screenshot.</desc>
+  <rect width="960" height="600" rx="32" fill="#E8EDF3"/>
+  <rect x="72" y="72" width="816" height="456" rx="24" fill="#FFFFFF"/>
+  <rect x="116" y="124" width="220" height="22" rx="11" fill="#263241"/>
+  <rect x="116" y="174" width="420" height="16" rx="8" fill="#98A4B3"/>
+  <rect x="116" y="212" width="342" height="16" rx="8" fill="#CBD3DD"/>
+  <rect x="116" y="282" width="222" height="54" rx="12" fill="#1F6FEB"/>
+  <rect x="384" y="282" width="156" height="54" rx="12" fill="#F3F6FA" stroke="#CBD3DD"/>
+  <rect x="600" y="130" width="220" height="260" rx="24" fill="#F3F6FA"/>
+  <circle cx="710" cy="226" r="60" fill="#D7DEE8"/>
+  <rect x="646" y="318" width="128" height="16" rx="8" fill="#B6C1CE"/>
+  <rect x="636" y="350" width="148" height="14" rx="7" fill="#CBD3DD"/>
+  <rect x="116" y="430" width="704" height="18" rx="9" fill="#E1E7EF"/>
+</svg>

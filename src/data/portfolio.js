@@ -1,0 +1,153 @@
+export const projects = [
+  {
+    title: '#HARTA',
+    stack: [
+      'React',
+      'Vite',
+      'Node.js',
+      'Express',
+      'PostgreSQL',
+      'Neon',
+      'Hostinger',
+      'Google OAuth',
+      'Mercado Pago',
+      'Resend',
+      'Real Client',
+    ],
+    description:
+      'A production-ready e-commerce platform built for a ceramic design brand, featuring product catalog management, Google authentication, persistent shopping cart functionality, Mercado Pago payments, customer order tracking, email notifications, and a dedicated administration panel.',
+    demoUrl: 'https://hartashop.com',
+    githubUrl: 'https://github.com/eduman8/Harta-Web',
+    images: [
+      // '/harta-preview.png',
+      '/images/harta/Home.png',
+      '/images/harta/Detalle-Producto.png',
+      '/images/harta/Productos.png',
+      '/images/harta/Checkout.png',
+      '/images/harta/Admin-Productos.png',
+    ],
+    imageFit: 'contain',
+    imagePosition: 'center',
+    status: 'Production / Live',
+    demoLabel: 'Live Demo',
+    features: [
+      'Product catalog and category filtering',
+      'Product detail pages with multiple images',
+      'Google authentication and persistent cart',
+      'Checkout flow with Mercado Pago integration',
+      'Customer order history and email notifications',
+      'Admin dashboard for products, categories and orders',
+    ],
+  },
+  {
+    title: 'AgroVentas Barceló',
+    stack: [
+      'React',
+      'Node.js',
+      'Express',
+      'SQL Server',
+      'REST API',
+      'Real Client'
+    ],
+    description:
+      "Full-stack agricultural platform connected to Microsoft SQL Server, providing access to over 2,000 spare parts and machinery products. Designed for real business operations, including inventory consultation, product search, customer inquiries, and scalable catalog management.",
+    demoUrl: 'https://agroventasbarcelo.com.ar/',
+    githubUrl: 'https://github.com/eduman8/AgroventasBarcelo-Web',
+    images: [
+      // '/agroventas-barcelo-preview.png',
+      '/images/agroventasbarcelo/Home.png',
+      '/images/agroventasbarcelo/Gestion-Maquinarias.png',
+      '/images/agroventasbarcelo/Contacto.png',
+      '/images/agroventasbarcelo/Panel-Admin.png',
+      '/images/agroventasbarcelo/Repuestos-Visuales-Admin.png',
+      '/images/agroventasbarcelo/Repuestos-Visuales.png',
+      '/images/agroventasbarcelo/Repuestos.png',
+      '/images/agroventasbarcelo/Servicios.png',      
+    ],
+    imageFit: 'contain',
+    imagePosition: 'center',
+    status: 'Production / Live',
+    demoLabel: 'Live Demo',
+  },
+  {
+    title: 'Countries PI',
+    stack: [
+      'React',
+      'Redux',
+      'JavaScript',
+      'REST API',
+      'CSS Modules',
+      'Express',
+      'PostgreSQL',
+    ],
+    description:
+      'Country explorer built with React, Redux and REST API integration, featuring search, filters, sorting, pagination, detail pages and tourist activity creation.',
+    demoUrl: 'https://countries-nine-liard.vercel.app/',
+    githubUrl: 'https://github.com/eduman8/Pi-Countries',
+    images: [
+      'https://res.cloudinary.com/dbkfkpjjl/image/upload/v1778621409/Screenshot_2026-05-12_at_18-29-40_Henry_Countries_cytolr.png',
+      // Add future screenshots here, for example:
+      // '/images/projects/countries-pi/home.png',
+    ],
+    imageFit: 'contain',
+    imagePosition: 'top center',
+    demoLabel: 'Live Demo',
+  },
+];
+
+export const technicalHighlights = [
+  'JWT authentication and protected routes',
+  'Role-based admin dashboards',
+  'Product, category, cart and order flows',
+  'Mercado Pago checkout and webhook handling',
+  'PostgreSQL relational data modeling',
+  'REST API architecture with Node.js and Express',
+  'Responsive interfaces with React and CSS',
+  'Search, filtering, sorting and pagination',
+];
+
+export const skillGroups = [
+  {
+    label: 'Frontend',
+    skills: [
+      'JavaScript',
+      'React',
+      'Redux',
+      'Vite',
+      'React Router',
+      'Context API',
+      'HTML',
+      'CSS',
+      'Responsive Design',
+      'UI/UX',
+      'Dark Mode',
+      'Accessibility',
+    ],
+  },
+  {
+    label: 'Backend',
+    skills: [
+      'Node.js',
+      'Express',
+      'REST APIs',
+      'PostgreSQL',
+      'SQL',
+      'JWT Authentication',
+      'Google Auth',
+      'Mercado Pago API',
+      'API Integration',
+      'Role-Based Access',
+      'Webhooks',
+    ],
+  },
+  {
+    label: 'Tools',
+    skills: ['Git', 'GitHub', 'Scrum', 'Agile', 'VS Code', 'Postman', 'npm', 'Vercel'],
+  },
+];
+
+export const contactLinks = {
+  email: 'mailto:eduman.000@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/eduardo-dami%C3%A1n-g%C3%B3mez-89a432217/',
+  github: 'https://github.com/Eduman8',
+};
