@@ -3,11 +3,17 @@ import { createPortal } from 'react-dom';
 import { projects } from '../data/portfolio.js';
 
 function getProjectImages(project) {
-  if (Array.isArray(project.images) && project.images.length > 0) {
-    return project.images;
-  }
+  const images = Array.isArray(project.images) && project.images.length > 0
+    ? project.images
+    : project.image
+      ? [project.image]
+      : [];
 
-  return project.image ? [project.image] : [];
+  return images.map((image, index) =>
+    typeof image === 'string'
+      ? { src: image, alt: `${project.title} project screenshot ${index + 1}` }
+      : image,
+  );
 }
 
 function ProjectGallery({ project }) {
@@ -77,8 +83,8 @@ function ProjectGallery({ project }) {
           >
             <img
               className={`project-image project-image--${project.imageFit ?? 'contain'}`}
-              src={images[activeImageIndex]}
-              alt={`${project.title} project preview ${activeImageIndex + 1}`}
+              src={images[activeImageIndex].src}
+              alt={images[activeImageIndex].alt}
               style={{ objectPosition: project.imagePosition }}
             />
           </button>
@@ -121,7 +127,7 @@ function ProjectGallery({ project }) {
                     ‹
                   </button>
                 ) : null}
-                <img src={images[activeImageIndex]} alt={`${project.title} project screenshot ${activeImageIndex + 1}`} />
+                <img src={images[activeImageIndex].src} alt={images[activeImageIndex].alt} />
                 {hasMultipleImages ? (
                   <button className="project-lightbox-nav project-lightbox-nav--next" type="button" onClick={showNextImage} aria-label="Next project image">
                     ›
